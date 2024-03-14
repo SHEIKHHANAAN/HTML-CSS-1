@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Poppins:wght@600;900&family=Red+Rose:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+body{
+      height: 100vh;
+      width: 100vw;
+      background-image: url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      overflow: hidden;
+  }
+  nav{font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Rose', cursive;
+       margin-left: 30px;
+      margin-right: 50px;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  li{ list-style: none;
+      cursor: pointer;
+  }
+  a{
+      text-decoration: none;
+      color: rgb(255,225,40);
+  }
+  ul{
+      margin-right: 70px;
+      margin-top: 20px;
+      display: flex;
+      flex-direction: row;
+      gap: 80px;
+      font-size: smaller;
+
+  }
+ .button{
+      margin-top: 10px;
+      background-color: rgb(243, 13, 71);
+      padding: 5px 20px;
+      border: transparent ;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+  }
+  .text{
+      line-height: 90px;
+      margin-bottom: 0px;
+    margin-top: 50px;
+      margin-left: 100px;
+      text-align: center;
+      font-weight: 900;
+      font-size: 5em;
+      font-family: 'Dela Gothic One', cursive;
+      color: rgb(255,225,40);
+  }
+  .btn{
+      margin-top: 30px;
+      margin-left: 100px;
+      
+      padding: 10px 30px;
+      background-color: rgb(243, 13, 71);
+      border: transparent;
+      color: white;
+      font-family: 'Caveat', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Red Rose', cursive;
+  }
+  main{ padding-top: 30px;
+      text-align: center;
+  }
+  .last{
+      float: right;
+      margin-top: 60px;
+      margin-left: 100px;
+      margin-bottom: 5px;
+      margin right: 20px;
+  }
+  .img{
+      margin-top: 40px;
+      margin-right: 50px;
+      height: 100px;
+      width: 100px;
+  }
